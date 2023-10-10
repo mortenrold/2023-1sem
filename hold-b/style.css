@@ -1,0 +1,21 @@
+body {
+    background-color: #d2e9b1;
+    background-image: url("kat.jpg");
+    background-size: cover;
+}
+h1, p {
+    font-family: arial, helvetica, sand-serif;
+}
+h1 {
+    font-size: 100px;
+    letter-spacing: -6px;
+    /* HEX-farvekode */
+    color: #b30000;
+    background: linear-gradient(#e2e2e2, #a3a3a3);
+}
+p {
+    font-size: 18px;
+    line-height: 140%;
+    /* RGB-farvekode */
+    color: rgb(0, 124, 97);
+}
