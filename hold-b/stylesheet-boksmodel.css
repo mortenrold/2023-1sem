@@ -1,0 +1,23 @@
+h1 {
+    font-family: helvetica, arial, sans-serif;
+    /* en border har 3 værdier: tykkelse, type, farve */
+    border: 1px solid blue;
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 7px;
+    margin: 30px;
+}
+.danmark {
+    border: 4px dashed cornflowerblue;
+    margin-left: 75px;
+    padding: 15px;
+}
+.minidiv {
+    width: 200px;
+}
+.mikrokasse {
+    border: 1px solid grey;
+    padding: 3px;
+    background-color: yellow;
+}
