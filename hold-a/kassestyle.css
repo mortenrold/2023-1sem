@@ -1,0 +1,13 @@
+h1 {
+    /* en border har 3 værdier: tykkelse, type, farve */
+    border: 5px solid red;
+    padding-top: 20px;
+    padding-right: 47px;
+    padding-bottom: 70px;
+    padding-left: 10px;
+}
+.tekstboks {
+    border: 2px dashed green;
+    margin-left: 50px;
+    padding: 25px;
+}

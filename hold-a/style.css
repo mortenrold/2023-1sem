@@ -1,0 +1,16 @@
+body {
+    background-color: antiquewhite;
+}
+h1, p {
+    font-family: helvetica, arial, sans-serif;
+}
+h1 {
+    color: rgb(171, 28, 171);
+    background: linear-gradient(to right, #cdcdcd, #9e9e9e);
+    font-size: 100px;
+}
+p {
+    line-height: 140%;
+    /* HEX-farvekode */
+    color: #c20a0a;
+}
