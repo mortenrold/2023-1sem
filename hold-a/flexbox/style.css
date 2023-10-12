@@ -1,0 +1,36 @@
+.kid {
+    background-color: #ddd;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 20px;
+    width: 300px;
+}
+.flex-container {
+    background-color: lightblue;
+    padding: 10px;
+    display: flex;
+    margin-top: 20px;
+}
+.right {
+    justify-content: flex-end;
+    height: 300px;
+    /* juster lodret */
+    align-items: center;
+}
+.jaevnt {
+    /* juster vandret */
+    justify-content: space-evenly;
+}
+.hop-ned {
+    /* børn hopper ned på næste linje, hvis der ikke er plads i bredden */
+    flex-wrap: wrap;
+}
+.lodret {
+    /* her ændrer vi "perspektiv", så det der før var vandret, nu er lodret */
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-evenly;
+    align-items: center;
+}
