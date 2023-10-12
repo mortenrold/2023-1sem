@@ -1,0 +1,40 @@
+.container {
+    background-color: #ddd;
+    padding: 10px;
+}
+.flex-container {
+    background-color: #b6b6b6;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+}
+.barn {
+    background-color: dodgerblue;
+    margin: 10px;
+    color: white;
+    font-size: 22px;
+    font-family: helvetica, arial, sans-serif;
+    padding: 15px;
+    width: 300px;
+}
+.right {
+    justify-content: flex-end;
+}
+.jaevnt {
+    justify-content: space-evenly;
+}
+.lodret {
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+.hop-ned {
+    /* børn falder ned på næste linje, hvis der ikke er plads */
+    flex-wrap: wrap;
+}
+.omvendt {
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    justify-content: space-between;
+}
