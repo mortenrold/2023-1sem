@@ -2,17 +2,16 @@
 * {
     margin: 0;
     padding: 0;
-}
-html, body {
-    height: 100%;
+    box-sizing: border-box;
 }
 body {
-    font-family: arial, helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .simple {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid cornflowerblue;
     height: 50px;
     align-items: flex-end;
 }
@@ -22,33 +21,33 @@ body {
     justify-content: space-around;
 }
 .logo {
-    padding-left: 20px;
+    margin-left: 20px;
     padding-bottom: 14px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 .simple a {
     text-decoration: none;
-    color: #333;
+    color: cornflowerblue;
+    font-weight: bold;
     border-bottom: 4px solid white;
     padding-bottom: 10px;
 }
 .simple a:hover {
-    color: #999;
-    border-bottom: 4px solid #333;
+    border-bottom: 4px solid cornflowerblue;
 }
 .logo a:hover {
     border-bottom: 4px solid white;
 }
 
-/* faneblade */
+/* tabs */
 .tabs {
     margin-top: 100px;
+    border-bottom: 1px solid #333;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid #333;
 }
 .tabs nav {
-    width: 500px;
+    width: 550px;
     display: flex;
     justify-content: space-around;
 }
@@ -56,10 +55,13 @@ body {
     text-decoration: none;
     color: #333;
     border: 1px solid #333;
-    padding: 10px 20px;
+    padding: 10px 20px 10px 20px;
+    width: 120px;
+    text-align: center;
     margin-bottom: -1px;
-    border-radius: 13px 13px 0 0;
-    background: linear-gradient(#eeeeee, #d5d5d5);
+    /* 4 hjørner fra øverste venstre hjørne og uret rundt */
+    border-radius: 16px 16px 0 0;
+    background: linear-gradient(#f1f1f1, #d8d8d8);
 }
 .aktiv {
     background: white !important;
