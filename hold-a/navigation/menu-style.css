@@ -1,0 +1,62 @@
+/* "Reset" - alle elementer får margin og padding på 0 */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: arial, helvetica, sans-serif;
+}
+.simple {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    height: 50px;
+    align-items: flex-end;
+}
+.simple nav {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    padding-left: 20px;
+    border-bottom: 4px solid white;
+    padding-bottom: 10px;
+}
+.simple a {
+    text-decoration: none;
+    color: #333;
+    padding-bottom: 10px;
+    border-bottom: 4px solid white;
+}
+.simple a:hover {
+    color: #999;
+    border-bottom: 4px solid #333;
+}
+
+/* faneblade */
+
+.tabs {
+    margin-top: 100px;
+    border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: center;
+}
+.tabs nav {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.tabs nav a {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    margin-bottom: -1px;
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient(#e7e7e7, #d5d5d5); 
+}
+.aktiv {
+    background: none !important;
+    border-bottom: 1px solid white !important;
+}
