@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 10px 2% 10px 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo, .hovedmenu, article, footer {
+    margin-bottom: 10px;
+}
+.logo {
+    background-color: cornflowerblue;
+    height: 50px;
+}
+.hovedmenu {
+    background: lightcoral;
+    height: 50px;
+}
+.undermenu {
+    background: yellowgreen;
+    display: none;
+}
+article {
+    background: #ddd;
+    height: 400px;
+    overflow: hidden;
+}
+.banner {
+    background: hotpink;
+    display: none;
+}
+footer {
+    background: burlywood;
+    height: 60px;
+}
+img {
+    width: 100%;
+}
+
+/* media query (styles til tablet-størrelse og derover) */
+@media screen and (min-width: 638px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .undermenu {
+        display: block;
+        width: 25%;
+        height: 400px;
+    }
+    .logo {
+        width: 25%;
+    }
+    .hovedmenu, article {
+        width: 73%;
+        margin-left: 2%;
+    }
+    footer {
+        width: 100%;
+    }
+}
+
+/* medie query: layout til desktop-format */
+@media screen and (min-width: 1072px) {
+    article {
+        width: 42%;
+        margin-left: 1%;
+    }
+    .banner {
+        width: 31%;
+        display: block;
+        margin-left: 1%;
+        height: 400px;
+    }
+    .hovedmenu {
+        margin-left: 1%;
+        width: 74%;
+    }
+}
+
+/* stopklods */
+@media screen and (min-width: 1254px) {
+    .container {
+        max-width: 1254px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
