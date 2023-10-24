@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 10px 2%;
+}
+.logo {
+    background: rgb(194, 140, 194);
+    height: 50px;
+    margin-bottom: 10px;
+}
+.hovedmenu {
+    background: burlywood;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.undermenu {
+    background: crimson;
+    display: none;
+}
+article {
+    background: #ddd;
+    height: 400px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.banner {
+    background: lime;
+    display: none;
+}
+footer {
+    background: cornflowerblue;
+    height: 60px;
+}
+/* alle billder skal have samme bredde som deres "forældre" */
+img {
+    width: 100%;
+}
+/* "media query" - CSS til tablet-format (og derover) */
+@media screen and (min-width: 690px) {
+    .undermenu {
+        display: block;
+        width: 25%;
+        margin-bottom: 10px;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo {
+        width: 25%;
+    }
+    .hovedmenu, article {
+        width: 73%;
+        margin-left: 2%;
+    }
+    footer {
+        width: 100%;
+    }
+}
+
+/* CSS til desktop-format */
+@media screen and (min-width: 1068px) {
+    .banner {
+        display: block;
+        width: 31%;
+        margin-left: 1%;
+        margin-bottom: 10px;
+    }
+    article {
+        width: 42%;
+        margin-left: 1%;
+    }
+    .hovedmenu {
+        margin-left: 1%;
+        width: 74%;
+    }
+}
+
+/* stopklods */
+@media screen and (min-width: 1252px) {
+    .container {
+        max-width: 1252px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
